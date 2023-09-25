@@ -1,0 +1,52 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    string name;
+    cout << "Please enter your name and make sure to capitalize the first letter. " << endl;
+    cin >> name;
+
+    if (name == "Carolyn")
+    {
+        cout << "The creator of this program!" << endl;
+    }
+    else if (name == "Gwyn")
+    {
+        cout << "A slaybabe" << endl;
+    }
+    else if (name == "Emma")
+    {
+        cout << "A real one" << endl;
+    }
+    else if (name == "Alhams")
+    {
+        cout << "cool" << endl;
+    }
+    else if (name == "Belle")
+    {
+        cout << "cool" << endl;
+    }
+    else if (name == "Isabella")
+    {
+        cout << "cool" << endl;
+    }
+    else if (name == "Daniela")
+    {
+        cout << "cool" << endl;
+    }
+    else if (name == "Kody")
+    {
+        cout << "cool" << endl;
+    }
+    else if (name == "Winnie")
+    {
+        cout << "cool" << endl;
+    }
+    else
+    {
+        cout << "Either I don't know you, I didn't put your name in the program, or there is a misspelling in your name." << endl;
+    }
+    return 0;
+}
