@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string input;
+    cout << "What is an animal that meows?" << endl;
+    cin >> input;
+    if (input == "Cat")
+    {
+        cout << "correct" << endl;
+    }
+    else
+    {
+        cout << "incorrect" << endl;
+    }
+}
