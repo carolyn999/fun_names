@@ -2,9 +2,22 @@
 #include <string>
 using namespace std;
 
+bool catFunc(char y, char n, char input1)
+{
+    if (input1 == 'y')
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
 int main()
 {
     string input;
+    char input1, y, n;
     cout << "What is an animal that meows?" << endl;
     cin >> input;
     if (input == "Cat")
@@ -15,4 +28,8 @@ int main()
     {
         cout << "incorrect" << endl;
     }
+    cout << "Are cats better than dogs? Input 'y' for yes, 'n' for no." << endl;
+    cin >> input1;
+    cout << catFunc(y, n, input1) << endl;
+    return 0;
 }
